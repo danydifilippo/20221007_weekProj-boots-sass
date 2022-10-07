@@ -1,0 +1,19 @@
+@import "custom";
+
+
+    .navbar{
+        @include gradient;
+        a{
+            color:white!important;
+        } 
+    }
+
+    .container-fluid {
+        max-width: 1300px;
+        }
+    
+    #home {
+        .rounded-pill{
+        width: fit-content;
+        }
+    }

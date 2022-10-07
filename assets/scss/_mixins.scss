@@ -1,0 +1,4 @@
+
+@mixin gradient{
+    background: linear-gradient(-90deg,rgba($primary,0.95), rgba($secondary,0.95));
+}
