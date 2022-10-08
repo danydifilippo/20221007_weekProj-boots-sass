@@ -1,10 +1,8 @@
 
 //Theme Colors
-$teal-dark:    #006a6a;
-$teal-dark:    #009e9e;
-$cyan:    #007c95;
-
-$primary: $teal-dark;
-$secondary: $cyan;
+$primary: #007c95; 
+$secondary:  #009e9e;
+$success:    #c1717d;
+$pinkgrad: #c48c94;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

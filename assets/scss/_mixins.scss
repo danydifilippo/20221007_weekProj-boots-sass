@@ -1,4 +1,13 @@
 
 @mixin gradient{
-    background: linear-gradient(-90deg,rgba($primary,0.95), rgba($secondary,0.95));
+    background: linear-gradient(90deg,rgba($primary,0.95), rgba($secondary,0.95));
+}
+@mixin fontplus{
+    font-size: 4rem;
+}
+@mixin absolCenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
