@@ -21547,17 +21547,20 @@ textarea.form-control-lg {
 body {
   position: relative;
 }
-body .container-fluid, body .container-sm, body .container-md, body .container-lg, body .container-xl, body .container-xxl {
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
   max-width: 1300px;
 }
-body .navbar {
+
+.navbar {
   background: linear-gradient(90deg, rgba(63, 97, 100, 0.95), rgba(115, 158, 162, 0.95));
   z-index: 10;
 }
-body .navbar a {
+.navbar a {
   color: white !important;
 }
-body #home {
+
+#home {
   background-image: url(../img/background_sec1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -21566,37 +21569,37 @@ body #home {
   height: 63rem;
   overflow: auto;
 }
-body #home .sectionhome {
+#home .sectionhome {
   position: relative;
 }
-body #home h1, body #home .h1 {
+#home h1, #home .h1 {
   color: #b4606c;
   font-size: 5.5rem;
 }
-body #home h3, body #home .h3 {
+#home h3, #home .h3 {
   color: #904651;
   font-size: 3rem;
   font-style: italic;
 }
-body #home .rounded-pill {
+#home .rounded-pill {
   width: fit-content;
   background: linear-gradient(90deg, rgba(63, 97, 100, 0.95), rgba(115, 158, 162, 0.95));
 }
-body #home .video-box {
+#home .video-box {
   position: relative;
   margin-top: 4rem;
 }
-body #home .video-box a {
+#home .video-box a {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-body #home .video-box a i {
+#home .video-box a i {
   font-size: 7rem;
   color: #3f6164;
 }
-body #home:before {
+#home:before {
   content: "";
   position: absolute;
   top: 0;
@@ -21606,7 +21609,8 @@ body #home:before {
   background: url(../assets/images/overlay-pattern2.png);
   background-color: rgba(0, 0, 0, 0.207);
 }
-body .border-animation {
+
+.border-animation {
   position: absolute;
   top: 5px;
   width: 7rem;
@@ -21615,12 +21619,13 @@ body .border-animation {
   border-radius: 50%;
   animation: pulse-border 1s linear infinite;
 }
-body .border-animation .border1 {
+.border-animation .border1 {
   animation-delay: 1s;
 }
-body .border-animation .border2 {
+.border-animation .border2 {
   animation-delay: 1.5s;
 }
+
 @keyframes pulse-border {
   0% {
     transform: scale(1);
@@ -21631,76 +21636,78 @@ body .border-animation .border2 {
     opacity: 0;
   }
 }
-body .theme-light {
-  color: #3f6164;
+.theme-light {
   transition: all 0.2s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  body .theme-light {
+  .theme-light {
     transition: none;
   }
 }
-body .theme-light #scene1 {
+.theme-light #scene1 {
   background-color: white;
-  color: primary;
+  color: #000;
 }
-body .theme-light #scene1 .white {
-  display: none;
-}
-body .theme-light #scene1 .black {
+.theme-light #scene1 .white {
   display: flex;
 }
-body .theme-light #scene1 #toggle-btn {
+.theme-light #scene1 .black {
+  display: flex;
+}
+.theme-light #scene1 #toggle-btn {
   background-color: #739ea2;
 }
-body .theme-dark {
+
+.theme-dark {
   color: white;
   background-color: #263d51;
   transition: all 0.2s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  body .theme-dark {
+  .theme-dark {
     transition: none;
   }
 }
-body .theme-dark #scene1 {
+.theme-dark #scene1 {
   background-color: #263d51;
   color: #f4f4f4;
 }
-body .theme-dark #scene1 .black {
+.theme-dark #scene1 .black {
   display: none;
 }
-body .theme-dark #scene1 .white {
+.theme-dark #scene1 .white {
   display: flex;
 }
-body .theme-dark #scene1 #toggle-btn {
+.theme-dark #scene1 #toggle-btn {
   background-color: #16232e;
 }
-body #scene1 {
+
+#scene1 {
   padding-top: 3rem;
   transition: all 0.2s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  body #scene1 {
+  #scene1 {
     transition: none;
   }
 }
-body #scene1 img {
+#scene1 img {
   justify-content: center;
   height: 40rem;
 }
-body #scene1 .descr {
+#scene1 .descr {
   flex-direction: column;
   font-size: 120%;
   padding: 4%;
   font-style: italic;
 }
-body #scene1 .descr h2, body #scene1 .descr .h2 {
+#scene1 .descr h2, #scene1 .descr .h2 {
   font-style: normal;
   font-size: 300%;
   padding-bottom: 7%;
 }
-body #toggle-btn {
+
+#toggle-btn {
   position: relative;
   width: 86px;
   height: 48px;
@@ -21710,7 +21717,8 @@ body #toggle-btn {
   transition: all ease-in-out 0.4s;
   cursor: pointer;
 }
-body #toggle-btn:before {
+
+.theme-light #toggle-btn:before {
   position: absolute;
   content: "";
   width: 36px;
@@ -21722,10 +21730,12 @@ body #toggle-btn:before {
   transition: all ease-in-out 0.4s;
   z-index: 9;
 }
-body .theme-dark #toggle-btn:before {
+
+.theme-dark #toggle-btn:before {
   left: 44px;
 }
-body #eventi {
+
+#eventi {
   background-image: url(../img/vino_pane2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -21733,37 +21743,39 @@ body #eventi {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-body #eventi .row img {
+#eventi .row img {
   object-fit: scale-down;
   width: 80%;
   height: 80%;
   padding: 0;
   padding-bottom: 4em;
 }
-body #feedback img {
+
+#feedback img {
   width: 60%;
   height: 60%;
   margin: auto;
 }
-body #contacts {
+
+#contacts {
   background: linear-gradient(90deg, rgba(63, 97, 100, 0.95), rgba(115, 158, 162, 0.95));
 }
-body #contacts .img {
+#contacts .img {
   padding-top: 2rem;
 }
-body #contacts .col-12 {
+#contacts .col-12 {
   font-size: 20px;
 }
-body #contacts .col-12 h2, body #contacts .col-12 .h2 {
+#contacts .col-12 h2, #contacts .col-12 .h2 {
   text-transform: uppercase;
   padding-top: 2rem;
 }
-body #contacts .col-12 i {
+#contacts .col-12 i {
   color: white;
   font-size: 40px;
   padding: 6px;
 }
-body #contacts .col-12 a {
+#contacts .col-12 a {
   color: white;
   text-decoration: none;
 }

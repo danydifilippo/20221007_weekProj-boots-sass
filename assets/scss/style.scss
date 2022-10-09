@@ -2,7 +2,7 @@
 
 body{
     position: relative;
-
+}
     .container-fluid {
         max-width: 1300px;
         }
@@ -90,11 +90,10 @@ body{
     }
 
     .theme-light {
-        color: $primary;
         @include transition;
             #scene1 {
                 background-color: white;
-                color: primary;
+                color: $primary;
                 .white {
                     display: none;
                 }
@@ -156,7 +155,7 @@ body{
         cursor: pointer;
     }
   
-    #toggle-btn:before {
+    .theme-light #toggle-btn:before {
         position: absolute;
         content: "";
         width: 36px;
@@ -221,4 +220,3 @@ body{
             }
         }
     }
-}
