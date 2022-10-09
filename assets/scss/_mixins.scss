@@ -12,3 +12,6 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+@mixin transition {
+    transition: background-color 0.8s ease-in-out, color 0.8s ease-in-out;
+}

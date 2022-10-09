@@ -1,10 +1,3 @@
-function playVideo (n) {
-  play = document.getElementById(n);
-  console.log(play)
-  play.classList.remove('d-none');
-}
-
-
 let toggleBtn = document.getElementById('toggle-btn');
 
 toggleBtn.onclick = function () {
