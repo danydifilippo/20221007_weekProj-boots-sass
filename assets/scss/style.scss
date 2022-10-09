@@ -98,7 +98,7 @@ body{
                     display: none;
                 }
                 .black {
-                    display: flex;
+                    display: block;
                 }
                 #toggle-btn {
                 background-color: $secondary;
@@ -116,7 +116,7 @@ body{
                     display: none;
                 }
                 .white {
-                    display: flex;
+                    display: block;
                 }
                 #toggle-btn {
                     background-color: #16232e;

@@ -21646,13 +21646,13 @@ body {
 }
 .theme-light #scene1 {
   background-color: white;
-  color: #000;
+  color: #3f6164;
 }
 .theme-light #scene1 .white {
-  display: flex;
+  display: none;
 }
 .theme-light #scene1 .black {
-  display: flex;
+  display: block;
 }
 .theme-light #scene1 #toggle-btn {
   background-color: #739ea2;
@@ -21676,7 +21676,7 @@ body {
   display: none;
 }
 .theme-dark #scene1 .white {
-  display: flex;
+  display: block;
 }
 .theme-dark #scene1 #toggle-btn {
   background-color: #16232e;
