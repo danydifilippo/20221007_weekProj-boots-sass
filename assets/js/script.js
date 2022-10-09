@@ -1,6 +1,7 @@
 function playVideo (n) {
-  let div = document.createElement(`<video src="./assets/img/${n}.mp4" class="d-block"></video>`)
-  console.log(div)
+  play = document.getElementById(n);
+  console.log(play)
+  play.classList.remove('d-none');
 }
 
 
