@@ -21600,10 +21600,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#home .video-box a i {
-  font-size: 7rem;
-  color: #3f6164;
-}
 #home:before {
   content: "";
   position: absolute;
@@ -21615,18 +21611,18 @@ body {
 
 .border-animation {
   position: absolute;
-  top: 5px;
-  width: 7rem;
-  height: 7rem;
+  top: -25px;
+  width: 5rem;
+  height: 5rem;
   border: 0.55rem solid #3f6164;
   border-radius: 50%;
   animation: pulse-border 1s linear infinite;
 }
 .border-animation .border1 {
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 .border-animation .border2 {
-  animation-delay: 1.5s;
+  animation-delay: 1s;
 }
 
 @keyframes pulse-border {

@@ -50,10 +50,6 @@ body{
             margin-top: 4rem;
             a{
                 @include absolCenter;
-                i {
-                    font-size: 7rem;
-                    color: $primary;
-                }
             }
         }
         &:before {
@@ -67,18 +63,18 @@ body{
     } 
     .border-animation {
         position: absolute;
-        top: 5px;
-        width: 7rem;
-        height: 7rem;
+        top: -25px;
+        width: 5rem;
+        height: 5rem;
         border: 0.55rem solid $primary;
         border-radius: 50%;
         animation: pulse-border 1s linear infinite;
 
             .border1{
-                animation-delay: 1s;
+                animation-delay: 2s;
             }
             .border2{
-                animation-delay: 1.5s;
+                animation-delay: 1s;
             }
     }
    
